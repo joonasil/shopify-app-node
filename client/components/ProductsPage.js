@@ -1,6 +1,6 @@
 import React from "react";
 import { gql, useQuery } from "@apollo/client";
-import { Banner, Layout, Card } from "@shopify/polaris";
+import { Banner, Layout, Card, DisplayText } from "@shopify/polaris";
 import { ProductsList } from "./ProductsList";
 import { Loading } from "@shopify/app-bridge-react";
 
@@ -41,6 +41,7 @@ function ProductsPage() {
       <Card>
         <ProductsList data={products} />
       </Card>
+      <DisplayText size="extraLarge">Good evening, Dominic.</DisplayText>
     </Layout.Section>
   );
 }
