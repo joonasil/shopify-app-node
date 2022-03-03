@@ -37,8 +37,10 @@
     "dotenv": "^8.2.0",
     "graphql": "^14.5.8",
     "html-webpack-plugin": "^4.0.0",
+    "mysql2": "^2.3.3",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "sequelize": "^6.17.0",
     "style-loader": "^2.0.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^4.9.1"
